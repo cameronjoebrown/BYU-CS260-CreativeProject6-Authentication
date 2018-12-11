@@ -1,0 +1,499 @@
+nohup: ignoring input
+before / Route
+Connected
+(node:6625) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-07T14:44:58.886Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true },
+  user: '5c0b4c17b9de3812beff23c0',
+  username: 'cam',
+  msg: 'Authenticated as cam',
+  color: 'Blue' }
+/ Route if user
+[0mGET / [36m304 [0m15.408 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m3.560 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m6.534 ms - -[0m
+[0mGET /user/profile [36m304 [0m17.529 ms - -[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-07T14:51:12.810Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true },
+  user: '5c0b4c17b9de3812beff23c0',
+  username: 'cam',
+  msg: 'Authenticated as cam',
+  color: 'Blue' }
+/ Route if user
+[0mGET / [36m304 [0m3.276 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m3.503 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m1.887 ms - -[0m
+[0mGET /user/profile [36m304 [0m3.676 ms - -[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-07T14:55:40.543Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true },
+  user: '5c0b4c17b9de3812beff23c0',
+  username: 'cam',
+  msg: 'Authenticated as cam',
+  color: 'Blue' }
+/ Route if user
+[0mGET / [32m200 [0m1.545 ms - 793[0m
+[0mGET /stylesheets/style.css [36m304 [0m2.215 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m2.328 ms - -[0m
+[0mGET /user/profile [36m304 [0m4.242 ms - -[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-08T12:30:31.027Z,
+     originalMaxAge: 2627999999,
+     httpOnly: true },
+  user: '5c0b4c17b9de3812beff23c0',
+  username: 'cam',
+  msg: 'Authenticated as cam',
+  color: 'Blue' }
+/ Route if user
+[0mGET / [32m200 [0m1.758 ms - 793[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.631 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m1.801 ms - -[0m
+[0mGET /user/profile [36m304 [0m2.306 ms - -[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-08T12:30:59.777Z,
+     originalMaxAge: 2627999999,
+     httpOnly: true },
+  user: '5c0b4c17b9de3812beff23c0',
+  username: 'cam',
+  msg: 'Authenticated as cam',
+  color: 'Blue' }
+/ Route if user
+[0mGET / [32m200 [0m3.057 ms - 800[0m
+[0mGET /javascripts/my_app.js [36m304 [0m1.409 ms - -[0m
+[0mGET /stylesheets/login_signup.css [36m304 [0m2.475 ms - -[0m
+[0mGET /user/profile [36m304 [0m3.580 ms - -[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-08T12:36:18.914Z,
+     originalMaxAge: 2627999999,
+     httpOnly: true },
+  user: '5c0b4c17b9de3812beff23c0',
+  username: 'cam',
+  msg: 'Authenticated as cam',
+  color: 'Blue' }
+/ Route if user
+[0mGET / [32m200 [0m4.229 ms - 860[0m
+[0mGET /javascripts/my_app.js [36m304 [0m1.858 ms - -[0m
+[0mGET /stylesheets/login_signup.css [36m304 [0m2.747 ms - -[0m
+[0mGET /user/profile [36m304 [0m1.639 ms - -[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-08T12:38:38.748Z,
+     originalMaxAge: 2627999999,
+     httpOnly: true },
+  user: '5c0b4c17b9de3812beff23c0',
+  username: 'cam',
+  msg: 'Authenticated as cam',
+  color: 'Blue' }
+/ Route if user
+[0mGET / [32m200 [0m2.878 ms - 878[0m
+[0mGET /stylesheets/login_signup.css [36m304 [0m1.730 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m1.441 ms - -[0m
+[0mGET /user/profile [36m304 [0m2.063 ms - -[0m
+/user Route
+[0mGET /user [32m200 [0m1.431 ms - 1223[0m
+[0mGET /javascripts/my_app.js [36m304 [0m3.658 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m5.218 ms - -[0m
+[0mGET /user/profile [36m304 [0m5.270 ms - -[0m
+/user Route
+[0mGET /user [32m200 [0m2.219 ms - 1230[0m
+[0mGET /javascripts/my_app.js [36m304 [0m1.717 ms - -[0m
+[0mGET /stylesheets/login_signup.css [36m304 [0m2.736 ms - -[0m
+[0mGET /user/profile [36m304 [0m1.459 ms - -[0m
+[0mPOST /user/delete [36m302 [0m23.771 ms - 56[0m
+/login Route
+[0mGET /login [32m200 [0m1.403 ms - 741[0m
+[0mGET /stylesheets/login_signup.css [36m304 [0m2.421 ms - -[0m
+/signup Route
+[0mGET /signup [32m200 [0m1.275 ms - 776[0m
+[0mGET /stylesheets/login_signup.css [36m304 [0m0.898 ms - -[0m
+Begin exports.signup
+after new user exports.signup
+after hashing user exports.signup
+after email user exports.signup
+In exports.signup
+null
+[0mPOST /signup [36m302 [0m13.736 ms - 46[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-08T12:40:55.024Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true },
+  user: '5c0c80b730ee0d19e11e8bed',
+  username: 'Cam',
+  msg: 'Authenticated as Cam' }
+/ Route if user
+[0mGET / [32m200 [0m1.678 ms - 874[0m
+[0mGET /stylesheets/login_signup.css [36m304 [0m2.419 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m2.497 ms - -[0m
+[0mGET /user/profile [32m200 [0m1.516 ms - 159[0m
+/user Route
+[0mGET /user [32m200 [0m7.496 ms - 1230[0m
+[0mGET /javascripts/my_app.js [36m304 [0m1.349 ms - -[0m
+[0mGET /stylesheets/login_signup.css [36m304 [0m2.143 ms - -[0m
+[0mGET /user/profile [36m304 [0m2.425 ms - -[0m
+/user Route
+[0mGET /user [32m200 [0m1.663 ms - 1292[0m
+[0mGET /stylesheets/login_signup.css [36m304 [0m2.647 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m1.947 ms - -[0m
+[0mGET /user/profile [36m304 [0m2.097 ms - -[0m
+/user Route
+[0mGET /user [32m200 [0m0.978 ms - 1305[0m
+[0mGET /stylesheets/login_signup.css [36m304 [0m2.998 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m1.270 ms - -[0m
+[0mGET /user/profile [36m304 [0m1.958 ms - -[0m
+[0mPOST /user/delete [36m302 [0m3.995 ms - 56[0m
+/login Route
+[0mGET /login [32m200 [0m1.103 ms - 754[0m
+[0mGET /stylesheets/login_signup.css [36m304 [0m0.899 ms - -[0m
+/login Route
+[0mGET /login [36m304 [0m1.093 ms - -[0m
+[0mGET /stylesheets/login_signup.css [36m304 [0m1.287 ms - -[0m
+/signup Route
+[0mGET /signup [32m200 [0m1.085 ms - 776[0m
+[0mGET /stylesheets/login_signup.css [32m200 [0m2.659 ms - 302[0m
+Begin exports.signup
+after new user exports.signup
+after hashing user exports.signup
+after email user exports.signup
+In exports.signup
+null
+[0mPOST /signup [36m302 [0m4.817 ms - 46[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-08T12:45:26.418Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true },
+  user: '5c0c81c630ee0d19e11e8bee',
+  username: 'Cam',
+  msg: 'Authenticated as Cam' }
+/ Route if user
+[0mGET / [36m304 [0m1.220 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m2.238 ms - -[0m
+[0mGET /stylesheets/login_signup.css [36m304 [0m2.467 ms - -[0m
+[0mGET /user/profile [32m200 [0m17.028 ms - 159[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-08T12:45:26.676Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true },
+  user: '5c0c81c630ee0d19e11e8bee',
+  username: 'Cam',
+  msg: 'Authenticated as Cam' }
+/ Route if user
+[0mGET / [32m200 [0m1.404 ms - 818[0m
+[0mGET /stylesheets/login_signup.css [36m304 [0m1.655 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m0.744 ms - -[0m
+[0mGET /user/profile [36m304 [0m1.453 ms - -[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-08T12:45:52.034Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true },
+  user: '5c0c81c630ee0d19e11e8bee',
+  username: 'Cam',
+  msg: 'Authenticated as Cam' }
+/ Route if user
+[0mGET / [32m200 [0m1.400 ms - 818[0m
+[0mGET /stylesheets/login_signup.css [36m304 [0m3.223 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m4.302 ms - -[0m
+[0mGET /user/profile [36m304 [0m1.514 ms - -[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-08T12:47:01.098Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.991 ms - 56[0m
+/login Route
+[0mGET /login [32m200 [0m0.935 ms - 754[0m
+[0mGET /apple-touch-icon-precomposed.png [33m404 [0m1.377 ms - 200[0m
+[0mGET /apple-touch-icon.png [33m404 [0m0.936 ms - 200[0m
+[0mGET /favicon.ico [33m404 [0m0.662 ms - 200[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-08T12:47:09.662Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m2.271 ms - 56[0m
+/login Route
+[0mGET /login [32m200 [0m0.874 ms - 754[0m
+[0mGET /stylesheets/login_signup.css [32m200 [0m1.109 ms - 302[0m
+[0mGET /favicon.ico [33m404 [0m0.646 ms - 200[0m
+/signup Route
+[0mGET /signup [32m200 [0m0.900 ms - 776[0m
+[0mGET /stylesheets/login_signup.css [36m304 [0m0.915 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m0.639 ms - 200[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-08T12:46:15.246Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true },
+  user: '5c0c81c630ee0d19e11e8bee',
+  username: 'Cam',
+  msg: 'Authenticated as Cam' }
+/ Route if user
+[0mGET / [36m304 [0m2.360 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m2.721 ms - -[0m
+[0mGET /stylesheets/login_signup.css [36m304 [0m3.506 ms - -[0m
+[0mGET /user/profile [36m304 [0m2.285 ms - -[0m
+Begin exports.signup
+after new user exports.signup
+after hashing user exports.signup
+after email user exports.signup
+In exports.signup
+null
+[0mPOST /signup [36m302 [0m2.702 ms - 46[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-08T12:47:56.829Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true },
+  user: '5c0c825c30ee0d19e11e8bef',
+  username: '',
+  msg: 'Authenticated as ' }
+/ Route if user
+[0mGET / [32m200 [0m1.184 ms - 812[0m
+[0mGET /javascripts/my_app.js [32m200 [0m0.513 ms - 400[0m
+[0mGET /stylesheets/login_signup.css [36m304 [0m3.036 ms - -[0m
+[0mGET /user/profile [32m200 [0m2.945 ms - 132[0m
+[0mGET /favicon.ico [33m404 [0m0.636 ms - 200[0m
+/user Route
+[0mGET /user [32m200 [0m1.131 ms - 1302[0m
+[0mGET /stylesheets/login_signup.css [36m304 [0m0.938 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m0.706 ms - -[0m
+[0mGET /user/profile [36m304 [0m4.226 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m0.581 ms - 200[0m
+[0mPOST /user/delete [36m302 [0m3.931 ms - 56[0m
+/login Route
+[0mGET /login [32m200 [0m1.051 ms - 754[0m
+[0mGET /stylesheets/login_signup.css [36m304 [0m0.873 ms - -[0m
+[0mPOST /login [36m302 [0m3.725 ms - 56[0m
+/login Route
+[0mGET /login [32m200 [0m1.003 ms - 769[0m
+[0mGET /stylesheets/login_signup.css [36m304 [0m0.923 ms - -[0m
+/signup Route
+[0mGET /signup [32m200 [0m0.722 ms - 791[0m
+[0mGET /stylesheets/login_signup.css [36m304 [0m0.925 ms - -[0m
+Begin exports.signup
+after new user exports.signup
+after hashing user exports.signup
+after email user exports.signup
+In exports.signup
+null
+[0mPOST /signup [36m302 [0m2.621 ms - 46[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-08T12:48:13.870Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true },
+  msg: 'Authenticated as ',
+  user: '5c0c826d30ee0d19e11e8bf0',
+  username: '' }
+/ Route if user
+[0mGET / [32m200 [0m1.264 ms - 812[0m
+[0mGET /javascripts/my_app.js [36m304 [0m3.945 ms - -[0m
+[0mGET /stylesheets/login_signup.css [36m304 [0m4.767 ms - -[0m
+[0mGET /user/profile [32m200 [0m2.170 ms - 132[0m
+/logout Route
+[0mGET /logout [36m302 [0m1.332 ms - 56[0m
+/login Route
+[0mGET /login [32m200 [0m0.872 ms - 754[0m
+[0mGET /stylesheets/login_signup.css [36m304 [0m1.339 ms - -[0m
+login
+{ _id: 5c0c826d30ee0d19e11e8bf0,
+  username: '',
+  hashed_password: '47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=',
+  email: '',
+  __v: 0 }
+[0mPOST /login [36m302 [0m3.230 ms - 46[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-08T12:48:21.028Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true },
+  user: '5c0c826d30ee0d19e11e8bf0',
+  username: '',
+  msg: 'Authenticated as ' }
+/ Route if user
+[0mGET / [32m200 [0m1.156 ms - 812[0m
+[0mGET /javascripts/my_app.js [36m304 [0m2.287 ms - -[0m
+[0mGET /stylesheets/login_signup.css [36m304 [0m4.114 ms - -[0m
+[0mGET /user/profile [36m304 [0m1.474 ms - -[0m
+/user Route
+[0mGET /user [36m304 [0m1.866 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m2.805 ms - -[0m
+[0mGET /stylesheets/login_signup.css [36m304 [0m3.471 ms - -[0m
+[0mGET /user/profile [36m304 [0m6.167 ms - -[0m
+[0mPOST /user/delete [36m302 [0m2.579 ms - 56[0m
+/login Route
+[0mGET /login [32m200 [0m1.169 ms - 754[0m
+[0mGET /stylesheets/login_signup.css [36m304 [0m1.206 ms - -[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-08T15:05:44.629Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.716 ms - 56[0m
+/login Route
+[0mGET /login [32m200 [0m1.069 ms - 754[0m
+[0mGET /stylesheets/login_signup.css [32m200 [0m1.021 ms - 302[0m
+[0mGET /favicon.ico [33m404 [0m1.118 ms - 200[0m
+/signup Route
+[0mGET /signup [32m200 [0m0.734 ms - 776[0m
+[0mGET /stylesheets/login_signup.css [36m304 [0m0.862 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m0.654 ms - 200[0m
+Begin exports.signup
+after new user exports.signup
+after hashing user exports.signup
+after email user exports.signup
+In exports.signup
+null
+[0mPOST /signup [36m302 [0m2.836 ms - 46[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-08T15:06:06.981Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true },
+  user: '5c0ca2be30ee0d19e11e8bf1',
+  username: 'Jk',
+  msg: 'Authenticated as Jk' }
+/ Route if user
+[0mGET / [32m200 [0m0.978 ms - 816[0m
+[0mGET /javascripts/my_app.js [32m200 [0m2.030 ms - 400[0m
+[0mGET /stylesheets/login_signup.css [36m304 [0m0.887 ms - -[0m
+[0mGET /user/profile [32m200 [0m1.435 ms - 134[0m
+[0mGET /favicon.ico [33m404 [0m0.694 ms - 200[0m
+/user Route
+[0mGET /user [32m200 [0m0.761 ms - 1304[0m
+[0mGET /stylesheets/login_signup.css [36m304 [0m0.855 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m0.935 ms - -[0m
+[0mGET /user/profile [36m304 [0m1.446 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m0.688 ms - 200[0m
+[0mPOST /user/update [36m302 [0m4.501 ms - 54[0m
+/user Route
+[0mGET /user [32m200 [0m1.607 ms - 1298[0m
+[0mGET /stylesheets/login_signup.css [36m304 [0m0.883 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m1.179 ms - -[0m
+[0mGET /user/profile [32m200 [0m1.458 ms - 149[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-08T15:06:22.142Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true },
+  user: '5c0ca2be30ee0d19e11e8bf1',
+  username: 'Jk',
+  msg: 'User Updated.',
+  color: 'Blue' }
+/ Route if user
+[0mGET / [32m200 [0m0.962 ms - 814[0m
+[0mGET /stylesheets/login_signup.css [36m304 [0m0.957 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m0.980 ms - -[0m
+[0mGET /user/profile [36m304 [0m2.155 ms - -[0m
+/logout Route
+[0mGET /logout [36m302 [0m0.973 ms - 56[0m
+/login Route
+[0mGET /login [32m200 [0m0.705 ms - 754[0m
+[0mGET /stylesheets/login_signup.css [36m304 [0m0.926 ms - -[0m
+login
+{ _id: 5c0ca2be30ee0d19e11e8bf1,
+  username: 'Jk',
+  hashed_password: 'hr6aVXYtMWowJsKDbQRPX8duNNoQ4bRf7uXxi+ftsXc=',
+  email: '',
+  __v: 0,
+  color: 'Blue' }
+[0mPOST /login [36m302 [0m2.909 ms - 46[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-08T15:06:37.404Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true },
+  user: '5c0ca2be30ee0d19e11e8bf1',
+  username: 'Jk',
+  msg: 'Authenticated as Jk',
+  color: 'Blue' }
+/ Route if user
+[0mGET / [32m200 [0m0.936 ms - 820[0m
+[0mGET /stylesheets/login_signup.css [36m304 [0m1.295 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m1.546 ms - -[0m
+[0mGET /user/profile [36m304 [0m1.975 ms - -[0m
+/user Route
+[0mGET /user [36m304 [0m0.726 ms - -[0m
+[0mGET /stylesheets/login_signup.css [36m304 [0m0.886 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m1.234 ms - -[0m
+[0mGET /user/profile [36m304 [0m1.454 ms - -[0m
+[0mPOST /user/delete [36m302 [0m3.421 ms - 56[0m
+/login Route
+[0mGET /login [32m200 [0m2.325 ms - 754[0m
+[0mGET /stylesheets/login_signup.css [36m304 [0m0.833 ms - -[0m
+[0mPOST /login [36m302 [0m1.766 ms - 56[0m
+/login Route
+[0mGET /login [32m200 [0m0.702 ms - 769[0m
+[0mGET /stylesheets/login_signup.css [36m304 [0m0.876 ms - -[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-10T02:27:54.775Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m2.813 ms - 56[0m
+/login Route
+[0mGET /login [32m200 [0m0.730 ms - 754[0m
+[0mGET /stylesheets/login_signup.css [32m200 [0m0.697 ms - 302[0m
+[0mGET /favicon.ico [33m404 [0m0.681 ms - 200[0m

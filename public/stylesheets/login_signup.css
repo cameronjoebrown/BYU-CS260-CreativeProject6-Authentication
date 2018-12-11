@@ -1,0 +1,18 @@
+body {
+    text-align: center;
+}
+
+input[type=submit], button {
+    color: black;
+    background-color: #E8F5E9;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 10px;
+    margin: 2px;
+}
+
+.form-container {
+    background-color: #B9F6CA;
+    display: inline-block;
+    padding: 10px;
+}
