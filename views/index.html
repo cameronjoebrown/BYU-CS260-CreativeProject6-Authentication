@@ -2,8 +2,41 @@
 <html ng-app="myApp">
 
 <head>
-    <title>User Login and Sessions</title>
+    <title>Movie Fans</title>
     <link rel="stylesheet" type="text/css" href="/stylesheets/login_signup.css" />
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            apiCall("Creed");
+            $("#movieButton").click(function(e) {
+                e.preventDefault();
+                var value = $("#movieField").val();
+                apiCall(value);
+            });
+        });
+
+        function apiCall(title) {
+
+            var myurl = `http://www.omdbapi.com/?apikey=ccca790f&t=${title}&plot=full`;
+            console.log(myurl);
+            $.ajax({
+                url: myurl,
+                dataType: "json",
+                success: function(parsed_json) {
+                    console.log(parsed_json);
+                    $("#Title").html(parsed_json['Title'] + " (" + parsed_json.Year + ")");
+                    var rating = parsed_json['Rated'];
+                    $("#release").html("<b>Release Date:</b> " + parsed_json['Released']);
+                    $("#genre").html("<b>Genre:</b> " + parsed_json['Genre']);
+                    $("#director").html("<b>Direcor:</b> " + parsed_json['Director']);
+                    $("#Actors").html("<b>Actors:</b> " + parsed_json['Actors']);
+                    $("#Plot").html(parsed_json['Plot']);
+                    $("#awards").html("<b>Awards: </b>" + parsed_json['Awards']);
+                    $("#Poster").html(`<img src="${parsed_json['Poster']}" style="max-width:300px;width:100%">`);
+                }
+            });
+        }
+    </script>
 </head>
 
 <body>
@@ -15,7 +48,6 @@
             </h2>
             <a id="logoutLink" href="/logout">Logout</a>
             <a id="editLink" href="/user">Edit User</a>
-
         </div>
         <hr>
         <span id="indexMsg">
@@ -23,10 +55,44 @@
     </span>
         <hr>
         <span id="colorText">
-    Favorite Color:
+    Favorite Movie:
         <%= color %>
       </span>
     </div>
+    <form style="text-align:center">
+        <input type="text" id="movieField" value="" style="width:40%;margin-top:20px;margin-bottom:20px" placeholder="Search any movie or tv show">
+        <input class="btn" id="movieButton" type="submit" value="Search">
+    </form>
+
+    <div class="container-fluid panel panel-default" style="width:80%">
+        <div class="row panel-body">
+            <div class="col-sm-4">
+                <div id="Poster"></div>
+            </div>
+
+            <div class="col-sm-8">
+                <h1 id="Title" class="centeredText">
+                    </h2>
+                    <h4 id="release">Release Date:</h4>
+                    <hr>
+                    <h4 id="genre">Genre:</h4>
+                    <hr>
+                    <h4 id="director">Director: </h4>
+                    <hr>
+                    <h4 id="Actors">Actors: </h4>
+                    <hr>
+                    <h4 id="awards">Awards: </h4>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <h4><b>Plot: </b></h4>
+                <p id="Plot">Plot: </p>
+            </div>
+        </div>
+    </div>
+
     <script src="http://code.angularjs.org/1.2.9/angular.min.js"></script>
     <script src="/javascripts/my_app.js"></script>
 </body>

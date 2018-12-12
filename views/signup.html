@@ -2,11 +2,12 @@
 <html>
     
 <head>
-    <title>User Login and Sessions</title>
+    <title>Movie Fan Page</title>
     <link rel="stylesheet" type="text/css" href="/stylesheets/login_signup.css" />
 </head>
         
-<body>  
+<body>
+    <h1>Movie Fan Sign Up</h1>
     <div class="form-container">
         <p class="form-header">Sign Up</p>
         <form method="POST" action="/signup">
@@ -18,8 +19,8 @@
             <input type="email" id="email" name="email"><br>
             <input type="submit" id="register" value="Register">
         </form>
+        <a id="loginLink" href="/login">Already Registered? Click Here to Sign In</a>
     </div>
-    <hr>
     <span id="signupMsg">
     <%= msg %>
     </span>
